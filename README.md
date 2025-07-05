@@ -7,17 +7,15 @@
 ## 🧩 项目结构
 
 MSRFomer/
-├── pretrain_code/ # 预训练 CNN 特征提取器的代码
-│ └── train.py # 基于 ResNet 的预训练脚本
-├── MSRFomer/ # 主模型训练代码目录
-│ ├── train.py # 微调阶段主训练脚本
-│ └── Pretrained_pth/ # 存放预训练模型权重
-└── README.md # 项目说明文档
-
-
+├── pretrain_code/ # Code for pretraining CNN feature extractor
+│ └── train.py # ResNet-based pretraining script
+├── MSRFomer/ # Main model training directory
+│ ├── train.py # Training script for fusion model (CNN + Transformer)
+│ └── Pretrained_pth/ # Folder to store pretrained weights
+└── README.md # Project documentation
 ---
 
-## 🚀 第一步：预训练 CNN 提取特征
+
 
 使用 `pretrain_code/train.py` 在初始数据集上训练一个 CNN（如 ResNet），用于提取字符图像的初始特征。
 
