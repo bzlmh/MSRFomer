@@ -6,29 +6,6 @@
 
 ## 🧩 项目结构
 
-# 创建主目录
-mkdir MSRFomer
-
-# 进入主目录
-cd MSRFomer
-
-# 创建预训练代码目录及文件
-mkdir pretrain_code
-touch pretrain_code/train.py
-
-# 创建主模型训练目录及子文件
-mkdir MSRFomer
-touch MSRFomer/train.py
-mkdir MSRFomer/Pretrained_pth
-
-# 创建README.md文档
-touch README.md
-
-# 返回上级目录
-cd ..
-
-使用 `pretrain_code/train.py` 在初始数据集上训练一个 CNN（如 ResNet），用于提取字符图像的初始特征。
-
 ### 🧪 运行步骤
 
 ```bash
