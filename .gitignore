@@ -1,0 +1,5 @@
+# 忽略 dataset/HWDB100/ 及其所有内容
+dataset/HWDB100/
+
+# 忽略 pretrain_code/dataset/HWDB100/ 及其所有内容
+pretrain_code/dataset/
