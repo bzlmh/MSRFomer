@@ -1,6 +1,6 @@
-# MSRFomer: Multi-Scale Refinement Transformer for Handwritten Chinese Character Recognition
+# MSRFomer: Ancient Handwritten Chinese Character Recognition via Multi-Style Attention and Feature Fusion
 
-本项目提出了一种结合 CNN 和多尺度 Transformer（MSA + Multi-scale ViT）结构的手写汉字识别模型，采用“两阶段训练”策略：先使用 CNN 进行预训练，再通过融合 Transformer 层微调以提升字符识别效果。
+This paper proposes a handwritten Chinese character recognition model that integrates Convolutional Neural Networks with a multi-scale Transformer architecture. The model adopts a two-stage training strategy: in the first stage, CNN layers are pre-trained to capture local features, and in the second stage, Transformer layers are incorporated for fine-tuning, enhancing the overall recognition performance. This work has been accepted by AIAHPC 2025 (EI).
 
 ---
 
