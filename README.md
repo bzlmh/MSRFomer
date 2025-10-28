@@ -1,4 +1,4 @@
-# MSRFomer: Ancient Handwritten Chinese Character Recognition via Multi-Style Attention and Feature Fusion
+# Ancient Handwritten Chinese Character Recognition via Multi-Style Attention and Feature Fusion
 
 This paper proposes a handwritten Chinese character recognition model that integrates Convolutional Neural Networks with a multi-scale Transformer architecture. The model adopts a two-stage training strategy: in the first stage, CNN layers are pre-trained to capture local features, and in the second stage, Transformer layers are incorporated for fine-tuning, enhancing the overall recognition performance. This work has been accepted by AIAHPC 2025 (EI).
 
