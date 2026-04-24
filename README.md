@@ -2,9 +2,6 @@
 
 A deep learning framework for ancient handwritten Chinese character recognition, integrating Convolutional Neural Networks (CNNs) with a multi-scale Transformer architecture. The proposed model is designed to capture both fine-grained local stroke patterns and global semantic dependencies, enabling robust recognition across diverse handwriting styles.
 
-> **Publication Status**  
-> Accepted at **AIAHPC 2025** and indexed by **EI**.
-
 ---
 
 ## Overview
@@ -42,22 +39,21 @@ This strategy enhances both convergence stability and overall performance.
 │   └── train.py
 └── README.md
 
-# Step 1: Pretrain the CNN backbone
-cd pretrain_code
-python train.py
+```
 
-# Step 2: Move pretrained checkpoint
-mv checkpoint.pth ../MSRFomer/Pretrained_pth/
+## Citation
 
-# Step 3: Fine-tune the main model
-cd ..
-python MSRFomer/train.py
-@INPROCEEDINGS{11290210,
+<a name="citation"></a>
+
+If you find this work helpful, please cite our paper:
+
+```bibtex
+@INPROCEEDINGS{AHCCR,
   author    = {Zhang, Tianyi and Liu, Menghui and Yang, Yilan and Zuo, Fang and Wang, Guanghui},
   booktitle = {2025 5th International Conference on Artificial Intelligence, Automation and High Performance Computing (AIAHPC)},
   title     = {Ancient Handwritten Chinese Character Recognition via Multi-Style Attention and Feature Fusion},
   year      = {2025},
   pages     = {29--32},
-  keywords  = {Handwriting recognition, Computer vision, Accuracy, Semantics, Layout, Writing, Feature extraction, Transformers, Robustness, Character recognition, Ancient handwritten Chinese character recognition, Multi-Style attention, Feature fusion},
-  doi       = {10.1109/AIAHPC66801.2025.11290210}
 }
+
+```
